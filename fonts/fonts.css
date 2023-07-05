@@ -1,0 +1,7 @@
+/* ==== fonts linking start ==== */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-VariableFont.ttf');
+    font-display: swap;
+}
+/* ==== fonts linking end ==== */

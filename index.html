@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tag start -->
+    <meta charset="UTF-8">
+    <meta name="description" content="The fastest money transfer agency">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="2 days">
+    <meta name="author" content="Abdullah Nur">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- icon links -->
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fonts/pe-icon-7/css/pe-icon-7-stroke.css">
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>TiroMoney</title>
+</head>
+
+<body>
+    <!-- header part start -->
+    <header class="sticky-header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg custom-nav">
+                <a class="navbar-brand logo-text" href="index.html">TiroMoney</a>
+                <button class="navbar-toggler menu-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu_bar" aria-controls="menu_icon" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- menu item start -->
+                <div class="collapse navbar-collapse" id="menu_bar">
+                    <ul class="navbar-nav nav-menu">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#help">Help</a>
+                        </li>
+                    </ul>
+                    <!-- Login Button start-->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn log-in-btn" data-bs-toggle="modal" data-bs-target="#log_modal">
+                        Log in
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="log_modal" tabindex="-1" aria-labelledby="nav_modal" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content p-5">
+                                <button type="button" class="btn-close mb-3 ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <!-- form start -->
+                                <form class="row needs-validation" novalidate>
+                                    <div class="col-md-12">
+                                        <label for="f_name" class="form-label">Name</label>
+                                        <input type="text" class="form-control" name="f_name" id="f_name" required>
+                                        <div class="valid-feedback">
+                                            Looks good!
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="e_mail" class="form-label">Email</label>
+                                        <input type="text" class="form-control" name="e_mail" id="e_mail" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a Email adress.
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mt-4">
+                                        <button class="btn button-1" type="submit">Log in</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Log in Button End -->
+                    <!-- Sign up Button start-->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn button-2 sign-up-btn" data-bs-toggle="modal" data-bs-target="#nav_modal">
+                        Sing up
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="nav_modal" tabindex="-1" aria-labelledby="nav_modal" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content p-5">
+                                <button type="button" class="btn-close mb-3 ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <!-- form start -->
+                                <form class="row needs-validation" novalidate>
+                                    <div class="col-md-12">
+                                        <label for="f_name" class="form-label">Name</label>
+                                        <input type="text" class="form-control" name="f_name" id="f_name" required>
+                                        <div class="valid-feedback">
+                                            Looks good!
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="e_mail" class="form-label">Email</label>
+                                        <input type="text" class="form-control" name="e_mail" id="e_mail" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a Email adress.
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mt-4">
+                                        <button class="btn button-1" type="submit">Sign up</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- LSign up Button End -->
+                </div>
+                <!-- menu item end -->
+            </nav>
+        </div>
+    </header>
+    <!-- header part end -->
+    <!-- home section start -->
+    <section id="home" class="hero py-section">
+        <div class="container">
+            <div class="row g-5 align-items-center hero-top text-center text-md-start">
+                <div class="col-12 col-md-6">
+                    <h1 class="heading-lg">Fastest money transfer, shopping from one account!!!</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                    <div class="btns hero-btns">
+                        <a href="#" class="btn button-1">Read More</a>
+                        <a href="#" class="btn button-2">Get a quote</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="banner-img text-center text-lg-end">
+                        <img src="images/banner.png" class="img-fluid" alt="Man with Laptop">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home section end -->
+    <!-- features section start -->
+    <section id="features" class="features py-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="intro text-center mx-auto">
+                        <h2 class="heading-md">Our exclusive features</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-xl-5">
+                <!-- feature item start -->
+                <div class="col-12 col-md-6 col-lg-3 card-wrapper">
+                    <div class="feature-card text-center shadow-1">
+                        <div>
+                            <div class="feature-icon"><span class="pe-7s-graph1"></span></div>
+                            <h3 class="heading-sm">Track your move</h3>
+                            <p>It is a long established fact that a reader will be distracted by the readable content.</p>
+                        </div>
+                        <div class="feature-link"><a href="#">Read More <i class="fa-solid fa-square-up-right"></i></a></div>
+                    </div>
+                </div>
+                <!-- feature item end -->
+                <!-- feature item start -->
+                <div class="col-12 col-md-6 col-lg-3 card-wrapper">
+                    <div class="feature-card text-center shadow-1">
+                        <div>
+                            <div class="feature-icon"><span class="pe-7s-note2"></span></div>
+                            <h3 class="heading-sm">Professionals guide</h3>
+                            <p>It is a long established fact that a reader will be distracted by the readable content.</p>
+                        </div>
+                        <div class="feature-link"><a href="#">Read More <i class="fa-solid fa-square-up-right"></i></a></div>
+                    </div>
+                </div>
+                <!-- feature item end -->
+                <!-- feature item start -->
+                <div class="col-12 col-md-6 col-lg-3 card-wrapper">
+                    <div class="feature-card text-center shadow-1">
+                        <div>
+                            <div class="feature-icon"><span class="pe-7s-help2"></span></div>
+                            <h3 class="heading-sm">Lifetime support</h3>
+                            <p>It is a long established fact that a reader will be distracted by the readable content.</p>
+                        </div>
+                        <div class="feature-link"><a href="#">Read More <i class="fa-solid fa-square-up-right"></i></a></div>
+                    </div>
+                </div>
+                <!-- feature item end -->
+                <!-- feature item start -->
+                <div class="col-12 col-md-6 col-lg-3 card-wrapper">
+                    <div class="feature-card text-center shadow-1">
+                        <div>
+                            <div class="feature-icon"><span class="pe-7s-shield"></span></div>
+                            <h3 class="heading-sm">Top security</h3>
+                            <p>It is a long established fact that a reader will be distracted by the readable content.</p>
+                        </div>
+                        <div class="feature-link"><a href="#">Read More <i class="fa-solid fa-square-up-right"></i></a></div>
+                    </div>
+                </div>
+                <!-- feature item end -->
+            </div>
+        </div>
+    </section>
+    <!-- features section end -->
+    <!-- about section start -->
+    <section id="about" class="about py-section">
+        <div class="container">
+            <div class="row g-5 align-items-center text-center text-md-start">
+                <div class="col-12 col-md-6">
+                    <div class="about-img">
+                        <img src="images/about.png" class="img-fluid" alt="Man with Laptop">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h2 class="heading-md">Great application <br> for your payment</h2>
+                    <div class="p-wrap">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                    </div>
+                    <div class="btns about-btns">
+                        <a href="#" class="btn button-1">Download now</a>
+                        <a href="#" class="btn button-2">All services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+    <!-- pricing section start -->
+    <section id="pricing" class="pricing py-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="intro text-center mx-auto">
+                        <h2 class="heading-md">Our pricing plans</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-xl-5">
+                <!-- pricing item start -->
+                <div class="col-12 col-md-4 card-wrapper">
+                    <div class="pricing-card shadow-1">
+                        <div class="plan-price"><span class="price-symbol">$</span><span class="price-number">100</span> <span class="price-time">/m</span></div>
+                        <h3 class="heading-sm pricing-title text-center">Basic plan</h3>
+                        <ul class="plan-features">
+                            <li>Email notification</li>
+                            <li>10 user transfer</li>
+                            <li>Postpone transfer</li>
+                            <li>Gratiuse erogos</li>
+                        </ul>
+                        <div class="pricing-link"><a href="#" class="btn button-2">Buy now</a></div>
+                    </div>
+                </div>
+                <!-- pricing item end -->
+                <!-- pricing item start -->
+                <div class="col-12 col-md-4 card-wrapper">
+                    <div class="pricing-card shadow-1">
+                        <div class="plan-price"><span class="price-symbol">$</span><span class="price-number">100</span> <span class="price-time">/m</span></div>
+                        <h3 class="heading-sm pricing-title text-center">Standard plan</h3>
+                        <ul class="plan-features">
+                            <li>Email notification</li>
+                            <li>10 user transfer</li>
+                            <li>Postpone transfer</li>
+                            <li>Gratiuse erogos</li>
+                        </ul>
+                        <div class="pricing-link"><a href="#" class="btn button-2">Buy now</a></div>
+                    </div>
+                </div>
+                <!-- pricing item end -->
+                <!-- pricing item start -->
+                <div class="col-12 col-md-4 card-wrapper">
+                    <div class="pricing-card shadow-1">
+                        <div class="plan-price"><span class="price-symbol">$</span><span class="price-number">100</span> <span class="price-time">/m</span></div>
+                        <h3 class="heading-sm pricing-title text-center">Premium plan</h3>
+                        <ul class="plan-features">
+                            <li>Email notification</li>
+                            <li>10 user transfer</li>
+                            <li>Postpone transfer</li>
+                            <li>Gratiuse erogos</li>
+                        </ul>
+                        <div class="pricing-link"><a href="#" class="btn button-2">Buy now</a></div>
+                    </div>
+                </div>
+                <!-- pricing item end -->
+            </div>
+        </div>
+    </section>
+    <!-- pricing section end -->
+    <!-- help section start -->
+    <section id="help" class="help py-section">
+        <div class="container">
+            <div class="row g-5 align-items-center text-center text-md-start">
+                <div class="col-12 col-md-6 order-2 order-md-1">
+                    <h2 class="heading-md">The process <br> fit for your business</h2>
+                    <div class="help-process">
+                        <!-- single process start -->
+                        <div class="process-item">
+                            <div class="help-icon"><i class="fa-solid fa-chart-pie"></i></div>
+                            <div class="help-text">
+                               <h3 class="heading-sm">Check your rate</h3>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page. </p>
+                            </div>
+                        </div>
+                        <!-- single process end -->
+                        <!-- single process start -->
+                        <div class="process-item">
+                            <div class="help-icon"><i class="fa-regular fa-circle-check"></i></div>
+                            <div class="help-text">
+                               <h3 class="heading-sm">Choose your plan</h3>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page. </p>
+                            </div>
+                        </div>
+                        <!-- single process end -->
+                        <!-- single process start -->
+                        <div class="process-item">
+                            <div class="help-icon"><i class="fa-solid fa-chart-column"></i></div>
+                            <div class="help-text">
+                               <h3 class="heading-sm">Get your funds</h3>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page. </p>
+                            </div>
+                        </div>
+                        <!-- single process end -->
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 order-1 order-md-2">
+                    <div class="help-img text-center text-lg-end">
+                        <img src="images/help.png" class="img-fluid" alt="Payment method card">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- help section end -->
+    <!-- footer part start -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row g-5 text-center text-md-start">
+                    <div class="col-lg-3 col-md-4 col-12 footer-widget">
+                        <div class="footer-widget-inner">
+                            <div class="logo-text">TiroMoney</div>
+                            <p>Millions of people of all ages and from around
+                                the world are improving their lives with us</p>
+                            <social class="social-links">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </social>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 footer-widget">
+                        <div class="footer-widget-inner">
+                            <h3>Terms of use</h3>
+                            <div class="terms">
+                                <a href="#">Terms & conditions</a>
+                                <a href="#">Copyright</a>
+                                <a href="#">Refund policy</a>
+                                <a href="#">Privacy policy</a>
+                                <a href="#">Disclaimer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 footer-widget d-md-none d-lg-block">
+                        <div class="footer-widget-inner">
+                            <h3>Quick links</h3>
+                            <div class="quick-links">
+                                <a href="#">Contact us</a>
+                                <a href="#">Blog</a>
+                                <a href="#">FAQs</a>
+                                <a href="#">Certifications</a>
+                                <a href="#">Work with us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 footer-widget">
+                        <div class="footer-widget-inner">
+                            <h3>Download app</h3>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page. </p>
+                            <div class="app-links">
+                                <a href="#"><img src="images/play-store.png" class="img-fluid" alt="Google play"></a>
+                                <a href="#"><img src="images/app-store.png" class="img-fluid" alt="App store"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class=" copyright text-center">
+                            <p>Copyright &copy; 2023 <a href="abdullahnur.com">Abdullah Nur</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer part end -->
+    <!-- javascript links -->
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
