@@ -1,7 +1,21 @@
 @media (max-width:991.98px) {
-    .menu-toggler:focus{
+    header {
+        background-image: linear-gradient(to right, #fffceb 40%, #ebe5f7);
+    }
+
+    .menu-toggler:focus {
         box-shadow: none;
     }
+
+    .log-in-btn {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .sign-up-btn {
+        margin: 12px 0;
+    }
+
     .heading-lg {
         font-size: 2rem;
     }
@@ -37,9 +51,11 @@
     .hero-top {
         margin-top: 60px;
     }
+
     .help-process {
-    margin-top: 50px;
-}
+        margin-top: 50px;
+    }
+
     .process-item {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -50,7 +66,8 @@
         align-items: center;
         margin-bottom: 30px;
     }
-    .social-links{
+
+    .social-links {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
@@ -58,10 +75,15 @@
 }
 
 @media (max-width:575.98px) {
-    .container{
+    :root {
+        --nav-height: 70px;
+    }
+
+    .container {
         padding-left: 25px;
         padding-right: 25px;
     }
+
     .heading-lg {
         font-size: 1.8rem;
     }
@@ -69,7 +91,8 @@
     .heading-md {
         font-size: 1.6rem;
     }
+
     .heading-sm {
-    font-size: 1.3rem;
-}
+        font-size: 1.3rem;
+    }
 }
