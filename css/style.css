@@ -209,29 +209,30 @@ header .custom-nav {
 }
 
 .sign-up-btn {
+    font-size: 1rem;
     min-width: 110px;
     height: 44px;
     margin-left: 10px;
 }
 
-.sticky-header.sticky {
+header.sticky {
     position: fixed;
-    background-color: #fff;
+    background: #fff;
     -webkit-animation: sticky 0.3s linear;
     animation: sticky 0.3s linear;
-    animation-fill-mode: none;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
     z-index: 9999;
 }
+
 @-webkit-keyframes sticky {
- 0% {
-  top: -5rem;
- }
- 100% {
-  top: 0;
- }
+    0% {
+        top: -5rem;
+    }
+
+    100% {
+        top: 0;
+    }
 }
+
 /* ==== header end ==== */
 /* ==== home start ==== */
 .hero {
